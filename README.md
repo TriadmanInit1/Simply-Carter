@@ -10,7 +10,9 @@ This program allows you to create an app which communicates with your Carter age
 
 2. You will need your Carter agent token and agent name to then insert into the ai_config.py file.
 
-MIT License, feel free to do whatever you want with this. It's a simple program, Carter is created by Huw Prosser at CarterLabs! https://www.carterlabs.ai/
+3. After that, enjoy using your own Jarvis (or whatever name you've chosen) in Tkinter!
+
+Sanware MIT License, feel free to do whatever you want with this. It's a simple program, Carter is created by Huw Prosser at CarterLabs! https://www.carterlabs.ai/
 
 Developed by TheMechanic57 at Sanware Developments.
 
