@@ -1,7 +1,9 @@
 from modules.sanware_carter import *
+from ai_config import *
 
 from tkinter import *
 import tkinter.font as tkFont
+import tkinter as tk
 
 def send_message():
     sentence = messageWindow.get("1.0", "end-1c")
@@ -20,7 +22,7 @@ def send_message():
     speak(ResponseOutput)
 
 def StartVC():
-    VoiceCommand(UIName, User, VoiceChoice)
+    VoiceCommand(UIName, User)
 
     with open("CarterResponse.txt") as f:
         ResponseOutput = f.read()

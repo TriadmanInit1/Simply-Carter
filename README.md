@@ -1,12 +1,16 @@
-Carter API - Connect your Carter agent to your Discord bot!
+# Carter API - Carter Tkinter Implementation
 
-This program is an extract from my own personal smart-home AI system, which uses both Carter and Sanware NLP to function.
+This program is an extract from an older version of my own personal smart-home AI system, which has been modified for this use case.
 
-This program allows you to connect your Discord bot to your Carter agent, enabling cross-platform communication.
+This program allows you to create an app which communicates with your Carter agent.
 
-You will need your Discord bot token and your Carter agent token to then insert into the bot.py file, you'll also need nextcord installed.
+## How to Install
 
-MIT License, feel free to do whatever you want with this. It's a simple program, but Carter is created by Huw Prosser, who did the real proper work in this! Go check it out! https://www.carterlabs.ai/
+1. I have created an installer program which you'll need to run before anything else, to ensure you have the necessary libraries installed. SanwareAutoInstaller.py
+
+2. You will need your Carter agent token and agent name to then insert into the ai_config.py file.
+
+MIT License, feel free to do whatever you want with this. It's a simple program, Carter is created by Huw Prosser at CarterLabs! https://www.carterlabs.ai/
 
 Developed by TheMechanic57 at Sanware Developments.
 

@@ -30,7 +30,7 @@ def SendToCarter(sentence, User, APIkey):
     f.write(f"{ResponseOutput}")
     f.close()
 
-def VoiceCommand(UIName, User, VoiceChoice):
+def VoiceCommand(UIName, User):
     chunk = 1024
     sample_format = pyaudio.paInt16
     channels = 1
