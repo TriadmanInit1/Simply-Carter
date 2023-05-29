@@ -1,4 +1,4 @@
-#Fill out these variables and remove '_template' from the filename.
+#Fill out these variables.
 
 # Your config
 UIName = ""
