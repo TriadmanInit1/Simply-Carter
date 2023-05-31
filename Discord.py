@@ -25,7 +25,6 @@ async def on_message(message):
     User = message.author
     sentence = message.content
     sentence = sentence.lower()
-    UIName = RawUIName.lower()
     WakeWord = UIName[1:]
 
     if WakeWord in sentence:
