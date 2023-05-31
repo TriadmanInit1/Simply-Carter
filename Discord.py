@@ -4,9 +4,9 @@
 
 # Load packages.
 
-import os
-import nextcord as discord
 from modules.sanware_carter import *
+
+DisplayName(UIName)
 
 intents = discord.Intents.all()
 client = discord.Client(intents=intents)

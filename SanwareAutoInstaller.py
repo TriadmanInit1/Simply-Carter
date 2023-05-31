@@ -9,6 +9,7 @@ try:
     os.system("python3 -m pip install scipy")
     os.system("python3 -m pip install noisereduce")
     os.system("python3 -m pip install nextcord")
+    os.system("python3 -m pip install art")
     print("All packages installed!")
 
 except Exception as e:

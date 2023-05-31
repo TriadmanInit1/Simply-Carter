@@ -12,6 +12,11 @@ import wave
 from scipy.io import wavfile
 import noisereduce as nr
 
+import os
+import nextcord as discord
+
+from art import text2art
+
 def SendToCarter(sentence, User, APIkey):
     response = requests.post("https://api.carterlabs.ai/chat", headers={
         "Content-Type": "application/json"
@@ -102,3 +107,7 @@ def speak(ResponseOutput):
     engine = pyttsx3.init()
     engine.say(ResponseOutput)
     engine.runAndWait()
+
+def DisplayName(UIName):
+    ascii_art = text2art(f"{UIName}")
+    print(ascii_art)
