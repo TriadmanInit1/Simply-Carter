@@ -8,6 +8,7 @@ try:
     os.system("python3 -m pip install wave")
     os.system("python3 -m pip install scipy")
     os.system("python3 -m pip install noisereduce")
+    os.system("python3 -m pip install nextcord")
     print("All packages installed!")
 
 except Exception as e:
