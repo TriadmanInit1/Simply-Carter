@@ -1,10 +1,10 @@
 # Sanware Carter MK 0.1
 
-This program is an extract from an older version of my own personal smart-home AI system, which has been modified for this use case.
+This program is an Artificial Intelligence algorithm, which learns from your input and Carter's responses to generate new and unique responses each time it is trained. \
 
-This program allows you to create an app which communicates with your Carter agent.
-This repo also includes an alternative interface which allows you to connect a Discord bot to your Carter agent, with extra features added from version 1.
-An intent classification example will be added soon, which will form a self-learning offline algorithm which learns from Carter's responses.
+It is powered by PyTorch, and provides you with multiple interfaces - Tkinter, Discord (through the nextcord library), Terminal, and more! \
+
+This is a highly stripped-back version of my personal AI project, which will hopefully allow for beginners to learn the basics of Machine Learning and personal assistant creating. \
 
 ## How to Install
 
@@ -16,7 +16,7 @@ An intent classification example will be added soon, which will form a self-lear
 
 ## Credits 
 
-Sanware MIT License, feel free to do whatever you want with this. \
+Sanware MIT License included in the repo! \
 Carter is created by Huw Prosser at CarterLabs! https://www.carterlabs.ai/
 
 Project maintained by TheMechanic57 at Sanware Developments.
