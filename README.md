@@ -1,10 +1,10 @@
 # Sanware Carter MK 0.1
 
-This program is an Artificial Intelligence algorithm, which learns from your input and Carter's responses to generate new and unique responses each time it is trained. \
+This program is an Artificial Intelligence algorithm, which learns from your input and Carter's responses to generate new and unique responses each time it is trained.
 
-It is powered by PyTorch, and provides you with multiple interfaces - Tkinter, Discord (through the nextcord library), Terminal, and more! \
+It is powered by PyTorch, and provides you with multiple interfaces - Tkinter, Discord (through the nextcord library), Terminal, and more!
 
-This is a highly stripped-back version of my personal AI project, which will hopefully allow for beginners to learn the basics of Machine Learning and personal assistant creating. \
+This is a highly stripped-back version of my personal AI project, which will hopefully allow for beginners to learn the basics of Machine Learning and personal assistant creating.
 
 ## How to Install
 
