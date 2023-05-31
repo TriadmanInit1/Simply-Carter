@@ -16,7 +16,7 @@ An intent classification example will be added soon, which will form a self-lear
 
 ## Credits 
 
-Sanware MIT License, feel free to do whatever you want with this. 
+Sanware MIT License, feel free to do whatever you want with this. \n\
 Carter is created by Huw Prosser at CarterLabs! https://www.carterlabs.ai/
 
 Project maintained by TheMechanic57 at Sanware Developments.
