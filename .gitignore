@@ -1,3 +1,2 @@
-
-CarterResponse.txt
-modules/__pycache__/sanware_carter.cpython-310.pyc
+*.pyc
+*.txt
