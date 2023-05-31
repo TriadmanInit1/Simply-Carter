@@ -26,8 +26,9 @@ async def on_message(message):
     sentence = message.content
     sentence = sentence.lower()
     UIName = RawUIName.lower()
+    WakeWord = UIName[1:]
 
-    if UIName in sentence:
+    if WakeWord in sentence:
         SendToCarter(sentence, User, APIkey)
         with open('CarterResponse.txt') as f:
             ResponseOutput = f.read()
