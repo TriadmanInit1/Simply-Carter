@@ -6,13 +6,11 @@
 
 import os
 import nextcord as discord
-from carter import *
+from modules.sanware_carter import *
 
 intents = discord.Intents.all()
 client = discord.Client(intents=intents)
 
-APIkey = "REPLACE THIS WITH YOUR CARTER AGENT'S API."
-RawUIName = "REPLACE THIS WITH THE NAME OF YOUR CARTER AGENT."
 DiscordAPI = "REPLACE THIS WITH YOUR DISCORD BOT'S API. GET IT FROM DISCORD DEVELOPER WEBSITE."
 
 # Program
