@@ -7,11 +7,10 @@
 import os
 import nextcord as discord
 from modules.sanware_carter import *
+from ai_config import *
 
 intents = discord.Intents.all()
 client = discord.Client(intents=intents)
-
-DiscordAPI = "REPLACE THIS WITH YOUR DISCORD BOT'S API. GET IT FROM DISCORD DEVELOPER WEBSITE."
 
 # Program
 
