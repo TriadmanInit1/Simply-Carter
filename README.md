@@ -14,9 +14,11 @@ An intent classification example will be added soon, which will form a self-lear
 
 3. After that, enjoy using your own Jarvis (or whatever name you've chosen) in Tkinter, Discord, or Command line!
 
+## Credits 
+
 Sanware MIT License, feel free to do whatever you want with this. 
 Carter is created by Huw Prosser at CarterLabs! https://www.carterlabs.ai/
 
-Developed by TheMechanic57 at Sanware Developments.
+Project maintained by TheMechanic57 at Sanware Developments.
 
 Jack Franklin
