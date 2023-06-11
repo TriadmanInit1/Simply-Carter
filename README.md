@@ -19,6 +19,4 @@ This is a highly stripped-back version of my personal AI project, which will hop
 Sanware MIT License included in the repo! \
 Carter is created by Huw Prosser at CarterLabs! https://www.carterlabs.ai/
 
-Project maintained by TheMechanic57 at Sanware Developments.
-
-Jack Franklin
+Project maintained by Cipher at Sanware Technologies
