@@ -10,10 +10,7 @@ def send_message():
 
     messageWindow.delete("1.0", "end")
 
-    SendToCarter(sentence, User, APIkey)
-
-    with open("CarterResponse.txt") as f:
-        ResponseOutput = f.read()
+    ResponseOutput = SendToCarter(sentence, User, APIkey)
 
     chatWindow.insert("end", f"\n{User}: {sentence}")
     chatWindow.insert("end", f"\n{UIName}: {ResponseOutput}")
@@ -22,10 +19,7 @@ def send_message():
     speak(ResponseOutput)
 
 def StartVC():
-    VoiceCommand(UIName, User)
-
-    with open("CarterResponse.txt") as f:
-        ResponseOutput = f.read()
+    ResponseOutput = VoiceCommand(UIName, User)
 
     chatWindow.insert("end", f"\n{User}: {sentence}")
     chatWindow.insert("end", f"\n{UIName}: {ResponseOutput}")

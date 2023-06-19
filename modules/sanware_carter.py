@@ -31,9 +31,7 @@ def SendToCarter(sentence, User, APIkey):
     FullResponse = Response["text"]
     ResponseOutput = FullResponse
 
-    f = open("CarterResponse.txt", "w+")
-    f.write(f"{ResponseOutput}")
-    f.close()
+    return ResponseOutput
 
 def VoiceCommand(UIName, User):
     chunk = 1024
@@ -102,6 +100,8 @@ def VoiceCommand(UIName, User):
     print(f"{User}: {sentence}")
 
     SendToCarter(sentence, User, APIkey)
+
+    return ResponseOutput
 
 def speak(ResponseOutput):
     engine = pyttsx3.init()

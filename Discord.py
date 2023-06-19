@@ -36,13 +36,11 @@ async def on_message(message):
 
     if Respond:
         await message.channel.trigger_typing()
-        SendToCarter(sentence, User, APIkey)
-        with open('CarterResponse.txt') as f:
-            ResponseOutput = f.read()
+        
+        ResponseOutput = SendToCarter(sentence, User, APIkey)
 
         print(message.content)
         await message.channel.send(f"{ResponseOutput}")
         print(ResponseOutput)
-        os.remove("CarterResponse.txt")
 
 client.run(DiscordAPI)
