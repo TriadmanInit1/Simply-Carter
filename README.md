@@ -9,14 +9,16 @@ This is a highly stripped-back version of my personal AI project, which will hop
 ## How to Install
 
 1. I have created an installer program which you'll need to run before anything else, to ensure you have the necessary libraries installed. Go to your terminal.
-    ```
+
+   ```
    cd Simply-Carter
    python3 SanwareAutoInstaller.py
+   
    ```
 
-2. You will need your Carter agent token and agent name to then insert into the ai_config.py file.
+3. You will need your Carter agent token and agent name to then insert into the ai_config.py file.
 
-3. After that, enjoy using your own Jarvis (or whatever name you've chosen) in Tkinter, Discord, or Command line!
+4. After that, enjoy using your own Jarvis (or whatever name you've chosen) in Tkinter, Discord, or Command line!
 
 ## Credits 
 
